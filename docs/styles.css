@@ -1,0 +1,62 @@
+body
+{
+	background-color: #fff7e7;
+	font-family: "Helvetica", "Arial", sans-serif;
+}
+
+/*navbar*/
+ul.topnav
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 1em 5em;
+	overflow: hidden;
+	/*background-color: #faf9f7;*/
+}
+
+/*Keeps everything in navbar to the right*/
+ul.topnav li
+{
+	float: right;
+}
+
+/*Links within navbar*/
+ul.topnav li a
+{
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+/*When hovering over navbar link*/
+ul.topnav li a:hover
+{
+	background-color:  #ebe7e0;
+}
+
+/*Active navbar link*/
+/*ul.topnav li a.active
+{
+	background-color: #8997AD;
+}*/
+
+/*When hovering over active navbar link*/
+/*ul.topnav li a:hover.active
+{
+	background-color: #5e6e87;
+}*/
+
+/*Left part of navbar*/
+ul.topnav li.left
+{
+	float:left;
+}
+
+/*.slideshow-container
+{
+	max-width: 1000px;
+	position: relative;
+	margin: auto;
+}*/
