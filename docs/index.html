@@ -4,16 +4,17 @@
 		<meta charset="UTF-8"/>
 		<title>Photos by Jeremy Olin</title>
 		<link rel="stylesheet" href="styles.css"/>
-		
 	</head>
 	<body>
 		<!-- Navbar -->
+		<nav>
 		<ul class="topnav">
 			<li><a class="icon" href="http://instagram.com/jerolss"><img src="images/instagram.svg" width="20px"/></a></li>
 			<li class="left"><h2>Jeremy Olin</h2></li>
 			<li><a href="about.html">About</a></li>
 			<li><a class="active" href="index.html">Home</a></li>
 		</ul>
+		</nav>
 
 		<!-- Slideshow container -->
 		<div class="slideshow-container">
@@ -21,19 +22,19 @@
 		  <!-- Full-width images with number and caption text -->
 		  <div class="mySlides fade">
 		    <div class="numbertext">1 / 3</div>
-		    <img src="images/tricet_preview.jpg" style="width:100%">
-		    <div class="cap-text">Třicet let svobody. <a href="tricet_let.html">View the full album</a></div>
+		    <img src="images/index/tricet_preview.jpg" style="width:100%">
+		    <div class="cap-text">Třicet let svobody. Vysehrad, 2019 <a href="tricet_let.html">View the full album</a></div>
 		  </div>
 
 		  <div class="mySlides fade">
 		    <div class="numbertext">2 / 3</div>
-		    <img src="images/prague.jpg" style="width:100%">
+		    <img src="images/index/prague.jpg" style="width:100%">
 		    <div class="cap-text">Prague at a distance. Praha 7, 2019</div>
 		  </div>
 
 		  <div class="mySlides fade">
 		    <div class="numbertext">3 / 3</div>
-		    <img src="images/headshot.jpg" style="width:100%">
+		    <img src="images/index/headshot.jpg" style="width:100%">
 		    <div class="cap-text">A lovely headshot. Pittsburgh, 2020</div>
 		  </div>
 
@@ -50,7 +51,9 @@
 		  <span class="dot" onclick="currentSlide(3)"></span>
 		</div>
 
-		<p class="footer">&copy; <small><em>Jeremy Olin</em></small></p>
+		<footer class="push">
+			<p>&copy; <small><em>Jeremy Olin</em></small></p>
+		</footer>
 
 		<!-- MUST LOAD LAST SO SLIDES CAN LOAD -->
 		<script src="javascript.js"></script>
