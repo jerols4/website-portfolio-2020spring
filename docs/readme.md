@@ -1,5 +1,3 @@
-Your final project files (html, css, images, etc) should go in here. **One of those files should be called index.html**: it will become your landing page. (Otherwise, your site will land on this readme.)
+## Readme
 
-You can then publish this site to the open web: just go to your repository's Settings and scroll down to the GitHub Pages section, and change the source from "none" to "master branch /docs folder."
-
-![activate GitHub Pages from repo Settings by changing the source](https://github.com/benmiller314/cdm2020spring/blob/gh-pages/assets/img/github-pages-activate.gif?raw=true)
+This is a website I created as part of my Composing Digital Media class. It was built to show off my hobby: photography. With it, you are able to easily naviagte to learn more about the website and view different photography portfolios. It allows me to share the work I am most proud of in my hobby and hopefully reach a wider audience in doing so. Additionally, the creation of this website also helped me learn a lot about web page design. I was able to learn more about layout, design, typography, responsiveness, and many other elements of web design. The website is created using HTML, CSS, and JavaScript from scratch (except for a few tutorials I followed). My biggest takeaway from this project was on the CSS side of things, since I only had a little bit of CSS experience prior. I gained a lot of experience toward responsive design, flexbox, and typography, and I hope to continue gaining experience in my career.
